@@ -1,0 +1,25 @@
+version: '3.9'
+services:
+
+  mysqldb:
+    container_name: mysqldb
+    image: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=employeedb
+
+  gestor-employees-0.0.1:
+    image: gestor-employees-0.0.1
+    build: ./GestorEmployees
+    ports:
+      - "8080:8080"
+
+  employee-api-demo-0.0.1:
+    depends_on:
+      - mysqldb
+    image: employee-api-demo-0.0.1
+    build: ./EmployeeAPIDemo
+    ports:
+      - "8081:8081"
