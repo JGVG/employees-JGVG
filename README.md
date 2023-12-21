@@ -1,4 +1,4 @@
-# employees-JGVG
+# Proyecto CRUD empleados - José Gabriel Vázquez Gil
 
 > [!NOTE]
 > El objetivo de este proyecto es crear un front y un back usando SpringBoot para mostrar, editar, añadir y borrar empleados.
