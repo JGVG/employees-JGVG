@@ -2,10 +2,7 @@
 
 > [!NOTE]
 > El objetivo de este proyecto es crear un front y un back usando SpringBoot para mostrar, editar, añadir y borrar empleados.
-> El proyecto actualmente dispone de tres paginas:
-> - Una lista de empleados y se muestran en una tabla.
-> - Un formulario para añadir un empleado.
-> - Un formulario para editar un empleado.
+> Contando el uso de la tecnología de contenización de Docker para el almacenado y conexión entre las partes de este proyecto.
 
 # Instalación
 
