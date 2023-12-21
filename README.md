@@ -12,7 +12,7 @@
 Para levantar el contenedor solo hace falta que tengas instalado docker, y en la raiz del proyecto ejecutar:
 
 ```js
-docker-compose up -d
+docker compose up -d
 ```
    
 > [!WARNING]
